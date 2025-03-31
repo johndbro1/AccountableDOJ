@@ -66,7 +66,7 @@ Tracking the Pleadings of Lawyers at the Department of Justice
 * CreatedOn (Timestamp)
 * Active (True/False)
 
-### ExternalLink
+### Link
 * DatabaseID
 * Type (String) (WWW, TBD)
 * URL (String)
@@ -74,7 +74,7 @@ Tracking the Pleadings of Lawyers at the Department of Justice
 * CreatedOn (Timestamp)
 * Active (True/False)
 
-### Commentary
+### Comment
 * DatabaseID
 * ReferenceType (String) (Pleading, EvaluationOrder, TBD)
 * Summary (String)
@@ -139,16 +139,16 @@ Tracking the Pleadings of Lawyers at the Department of Justice
 * Document (Document DatabaseID)
 * Active (True/False)
 
-### PleadingExternalLink
+### PleadingLink
 * DatabaseID
 * Parent (Pleading DatabaseID)
-* ExternalLink (ExternalLink DatabaseID)
+* Link (Link DatabaseID)
 * Active (True/False)
 
-### PleadingCommentary
+### PleadingComment
 * DatabaseID
 * Parent (Pleading DatabaseID)
-* Commentary (Commentary DatabaseID)
+* Comment (Comment DatabaseID)
 * Active (True/False)
 
 ### CourtOrder
@@ -161,10 +161,10 @@ Tracking the Pleadings of Lawyers at the Department of Justice
 * CreatedOn (Timestamp)
 * Active (True/False)
 
-### CourtOrderExternalLink
+### CourtOrderLink
 * DatabaseID
 * Parent (CourtOrder DatabaseID)
-* ExternalLink (ExternalLink DatabaseID)
+* Link (Link DatabaseID)
 * Active (True/False)
 
 ### CourtOrderDocument
@@ -176,21 +176,21 @@ Tracking the Pleadings of Lawyers at the Department of Justice
 ### CourtOrderCommentary
 * DatabaseID
 * Parent (CourtOrder DatabaseID)
-* Commentary (Commentary DatabaseID)
+* Comment (Comment DatabaseID)
 * Active (True/False)
 
 
 ### CommentaryDocument
 * DatabaseID
-* Parent (Commentary DatabaseID)
+* Parent (Comment DatabaseID)
 * Document (Document DatabaseID)
 * Active (True/False)
 
 
-### CommentaryExternalLink
+### CommentLink
 * DatabaseID
-* Parent (Commentary DatabaseID)
-* ExternalLink (ExternalLink DatabaseID)
+* Parent (Comment DatabaseID)
+* Link (Link DatabaseID)
 * Active (True/False)
 
 

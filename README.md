@@ -103,14 +103,15 @@ Tracking the Pleadings of Lawyers at the Department of Justice
 * CreatedOn (Timestamp)
 * Active (True/False)
 
-### AdmittedCourt
-* DatabaseID
-* Parent (Lawyer DatabaseID)
-* CourtType (String)
-* CourtIdentity (String)
-* CreatedBy (User DatabaseID)
-* CreatedOn (Timestamp)
-* Active (True/False)
+; probably overkill
+;### AdmittedCourt
+;* DatabaseID
+;* Parent (Lawyer DatabaseID)
+;* CourtType (String)
+;* CourtIdentity (String)
+;* CreatedBy (User DatabaseID)
+;* CreatedOn (Timestamp)
+;* Active (True/False)
 
 ### CaseLawyer
 * DatabaseID
